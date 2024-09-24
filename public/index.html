@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio Recorder</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app">
+        <h1>Audio Recorder</h1>
+        <div id="controls">
+            <button id="recordButton">Record</button>
+            <button id="stopButton" disabled>Stop</button>
+            <button id="playButton" disabled>Play</button>
+            <button id="restartButton" disabled>Restart</button>
+            <button id="saveButton" disabled>Save</button>
+        </div>
+        <div id="audioPlayer"></div>
+        <div id="urlDisplay">
+            <input type="text" id="audioUrl" readonly>
+            <button id="copyButton">Copy URL</button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
